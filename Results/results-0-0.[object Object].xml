@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Login_into_application" timestamp="2021-04-07T01:39:45" time="43.261" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Login into application"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.windows"/>
+      <property name="featureFile" value=".\e2e\specs\features\login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.89_0_4389_114.windows.Login_into_application" name="Login_into_application." time="43.242">
+      <system-out>
+        <![CDATA[
+✅ Given I am on the WestwingNow home page✅ When I search for "möbel"✅ Then I should see product listing page with a list of products✅ When I click on wishlist icon of the first found product✅ Then I should see the login and registration overlay✅ When I switch to login form of the overlay
+✅ And I log in with existing credentials✅ Then the product should be added to the wishlist✅ And I go to the wishlist page✅ And I delete the product from my wishlist
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
